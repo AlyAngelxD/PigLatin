@@ -7,6 +7,12 @@ public void setup()
 	{
 	  System.out.println(pigLatin(lines[i]));
 	}
+	String[] hymnLines = loadStrings("LowellHymn.txt");
+	System.out.println("there are " + hymnLines.length + " lines");
+	for (int i = 0; i < hymnLines.length; i++)
+	{
+
+	}
 }
 public void draw()
 {
